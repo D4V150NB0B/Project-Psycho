@@ -9,8 +9,6 @@ public class chatTemplates : MonoBehaviour
     public Button button2;
     public Button button3;
     public GameObject canva1;
-    public GameObject canva2;
-    public GameObject canva3;
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +30,9 @@ public class chatTemplates : MonoBehaviour
     public void Button2Pressed()
     {
         Debug.Log(Stats.singleton.confianza);
-        Instantiate(canva2, new Vector3(0, 0, 0), Quaternion.identity);
-        Destroy(transform.gameObject.GetComponentInParent<Canvas>().gameObject);
     }
     public void Button3Pressed()
     {
         Debug.Log(Stats.singleton.motivacion);
-        Instantiate(canva3, new Vector3(0, 0, 0), Quaternion.identity);
-        Destroy(transform.gameObject.GetComponentInParent<Canvas>().gameObject);
     }
 }
