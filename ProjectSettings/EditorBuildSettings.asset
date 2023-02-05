@@ -14,52 +14,52 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/saludo.unity
     guid: ca5332a22c4c5f048b11a6a5ebfcb0e6
-  - enabled: 1
-    path: Assets/Scenes/1..unity
-    guid: cafb4a947cb435e41951fca9e6aa59e2
-  - enabled: 1
-    path: Assets/Scenes/1.1.unity
-    guid: 91b8f39ead663b54cae28e3b2f15f34e
-  - enabled: 1
-    path: Assets/Scenes/1.1.1.unity
-    guid: a4aba34dd6842bb42baf79a3ffee13bc
-  - enabled: 1
-    path: Assets/Scenes/1.1.1.1.unity
-    guid: b88d8634eb7a20240a11644eebcdeec6
-  - enabled: 1
-    path: Assets/Scenes/2..unity
-    guid: cb2ead0763b59f54a81bf1461190da36
-  - enabled: 1
-    path: Assets/Scenes/2.1.unity
-    guid: a9aff1fcf233bcb4e85ea28bd471422f
-  - enabled: 1
-    path: Assets/Scenes/1000.unity
-    guid: 1c061be1102368b4a8064cc7df7a08b8
-  - enabled: 1
-    path: Assets/Scenes/1100.unity
-    guid: 4baa9c9b4d1f2ae438018e84920236d8
-  - enabled: 1
-    path: Assets/Scenes/1110.unity
-    guid: 43b7e93cb1c224c47aced86b4947de19
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/final estres.unity
     guid: 8962e6e669ebaa84d8a0620d5b383f2a
-  - enabled: 1
-    path: Assets/Scenes/1121.unity
-    guid: e842367dc793b834bad5207de898afd5
-  - enabled: 1
-    path: Assets/Scenes/1120.unity
-    guid: 387946bc5530b4c4eb4e233709038f28
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/final bueno.unity
     guid: 597dd24c398788f4da00f49fad098b80
   - enabled: 1
     path: Assets/Scenes/final confianza.unity
     guid: fb093f3b68be5124bae4c281e587dbb2
-  - enabled: 1
-    path: Assets/Scenes/1210.unity
-    guid: 2b4a3457f9ceaa444a59af19781551e5
-  - enabled: 1
-    path: Assets/Scenes/1211.unity
-    guid: fdcd502d9e1770a4eb5daf2466753a0f
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
