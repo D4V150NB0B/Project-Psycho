@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8937231456910620669}
   - component: {fileID: 8937231456910620659}
   m_Layer: 5
-  m_Name: 2220
+  m_Name: ChatCanvas 25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,9 +118,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 8937231458432580774}
   stringArray:
-  - "Claro que no, \xBFpor qu\xE9 lo har\xEDa?, "
-  - "No me escuchar\xEDan, y hasta se burlar\xEDan. "
-  - '''''Mis sentimientos no es algo que les importe.'''''
+  - "Es incre\xEDble que el final de mi consulta termin\xE9 peor de c\xF3mo vine
+    a aqu\xED."
+  - "Fui un idiota al pensar que algo podr\xEDa cambiar."
+  - "No pude aceptar el hecho de que no hay esperanza para m\xED, no hay futuro."
+  - "Por eso har\xE9 lo que deb\xED haber hecho hace mucho"
+  - "Y usted ser\xE1 responsable de que pudo evitarlo, pero me fall\xF3, como todos."
   timeBtwnChars: 0.08
   timeBtwnWords: 0.1
   charCount: 0
@@ -575,8 +578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFPor qu\xE9 pensar\xEDas que tu familia se burlar\xEDa? A pesar de
-    todo, me has dejado claro que te aman."
+  m_text: asdafsafasfas asdasdad
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -711,7 +713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Si nunca lo intentas no sabr\xE1s el resultado"
+  m_text: Hola Robert, un gusto conocerlo
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -927,7 +929,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hay maneras de comunicarlo sin exponerte mucho, \xBFte gustar\xEDa intentarlo?"
+  m_text: Button
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

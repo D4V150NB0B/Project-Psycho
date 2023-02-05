@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 8937231456910620669}
   - component: {fileID: 8937231456910620659}
   m_Layer: 5
-  m_Name: 2211
+  m_Name: ChatCanvas 24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -118,9 +118,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 8937231458432580774}
   stringArray:
-  - "Usted fue el que lo insinu\xF3 en primer lugar,"
-  - "pero no vine aqu\xED a ser juzgado, vine a ser ayudado."
-  - "Pero lo que consigo es desconfianza. No deb\xED contarte tanto de m\xED."
+  - "Es incre\xEDble que el final de mi consulta termin\xE9 peor de c\xF3mo vine
+    a aqu\xED."
+  - "Fui un idiota al pensar que algo podr\xEDa cambiar."
+  - "No pude aceptar el hecho de que no hay esperanza para m\xED, no hay futuro."
+  - "Por eso har\xE9 lo que deb\xED haber hecho hace mucho"
+  - "Y usted ser\xE1 responsable de que pudo evitarlo, pero me fall\xF3, como todos."
   timeBtwnChars: 0.08
   timeBtwnWords: 0.1
   charCount: 0
