@@ -139,9 +139,9 @@ MonoBehaviour:
   button1: {fileID: 5679109880700577092}
   button2: {fileID: 5679109879665312226}
   button3: {fileID: 5679109880021113299}
-  canva1: {fileID: 4218761763195695588, guid: 28797f0c2945999488bed7eff05777e2, type: 3}
-  canva2: {fileID: 0}
-  canva3: {fileID: 0}
+  canva1: {fileID: 3637280105757547371, guid: df78d116f5188a343b170abb26b4a579, type: 3}
+  canva2: {fileID: 9021668312564583530, guid: 4335c1faa29782a41993641a327724b7, type: 3}
+  canva3: {fileID: 4451997532289008214, guid: 7e3b8cd508658e54c9d77a912c27e31b, type: 3}
 --- !u!114 &5679109879307169548
 MonoBehaviour:
   m_ObjectHideFlags: 0

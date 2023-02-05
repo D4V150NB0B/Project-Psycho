@@ -649,9 +649,9 @@ MonoBehaviour:
   button1: {fileID: 36396464476112449}
   button2: {fileID: 36396463640584935}
   button3: {fileID: 36396463813409494}
-  canva1: {fileID: 4218761763195695588, guid: 28797f0c2945999488bed7eff05777e2, type: 3}
-  canva2: {fileID: 0}
-  canva3: {fileID: 0}
+  canva1: {fileID: 6241883485435405400, guid: 5e77e2151d0a7cf4589c571337fd175d, type: 3}
+  canva2: {fileID: 4191899745661771138, guid: f35e9871e026ad74bba3146c2ea43ed2, type: 3}
+  canva3: {fileID: 3262383091262239322, guid: 8568c97b01c592448b41d0a8ab06b956, type: 3}
 --- !u!114 &36396464259173385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -807,10 +807,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 36396464259173383}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button1Pressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

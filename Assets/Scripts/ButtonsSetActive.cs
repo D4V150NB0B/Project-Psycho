@@ -44,9 +44,21 @@ public class ButtonsSetActive : MonoBehaviour
 
     void ButtonsShow()
     {
-        button1.SetActive(true);
-        button2.SetActive(true);
-        button3.SetActive(true);
+        if (button1 != null)
+        {
+            button1.SetActive(true);
+
+        }
+        if (button2 != null)
+        {
+            button2.SetActive(true);
+
+        }
+        if (button3 != null)
+        {
+            button3.SetActive(true);
+
+        }
     }
   
 }

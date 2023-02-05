@@ -140,8 +140,8 @@ MonoBehaviour:
   button1: {fileID: 8937231458301967803}
   button2: {fileID: 8937231457131534621}
   button3: {fileID: 8937231457354023212}
-  canva1: {fileID: 4218761763195695588, guid: 28797f0c2945999488bed7eff05777e2, type: 3}
-  canva2: {fileID: 0}
+  canva1: {fileID: 8937231456910620664, guid: 27674070121901e4dbf0ec964bcfc0bd, type: 3}
+  canva2: {fileID: 8937231456910620664, guid: ecc8da549a2eade44950578ac3dbf585, type: 3}
   canva3: {fileID: 0}
 --- !u!114 &8937231456910620659
 MonoBehaviour:
@@ -293,7 +293,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 8937231457131534610}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 8937231457354023213}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
@@ -1156,7 +1156,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 0}
+  m_TargetGraphic: {fileID: 8937231458301967800}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:

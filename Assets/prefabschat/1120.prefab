@@ -409,10 +409,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 3617737011314351804}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button1Pressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -863,10 +863,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 3617737011314351804}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button3Pressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1149,10 +1149,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 3617737011314351804}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button2Pressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1314,9 +1314,9 @@ MonoBehaviour:
   button1: {fileID: 3617737009956558074}
   button2: {fileID: 3617737011000242268}
   button3: {fileID: 3617737010636056685}
-  canva1: {fileID: 4218761763195695588, guid: 28797f0c2945999488bed7eff05777e2, type: 3}
-  canva2: {fileID: 0}
-  canva3: {fileID: 0}
+  canva1: {fileID: 2189776548224117937, guid: 73554382871ad9a489f5945b1e90fc6a, type: 3}
+  canva2: {fileID: 3331215556010123516, guid: 6bb19cd04551f194b8226e2dd4130f60, type: 3}
+  canva3: {fileID: 7463551123286712865, guid: fe6510fcbec774345b993b3a792c5578, type: 3}
 --- !u!114 &3617737011314351794
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -141,7 +141,7 @@ MonoBehaviour:
   button1: {fileID: 9021668314394199593}
   button2: {fileID: 9021668313281880719}
   button3: {fileID: 9021668312909445822}
-  canva1: {fileID: 4218761763195695588, guid: 28797f0c2945999488bed7eff05777e2, type: 3}
+  canva1: {fileID: 0}
   canva2: {fileID: 0}
   canva3: {fileID: 0}
 --- !u!114 &9021668312564583521

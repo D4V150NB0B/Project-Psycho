@@ -193,7 +193,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 629568302622279613}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -354,10 +354,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 629568302455846087}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 629568303438674806}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button1Pressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -378,6 +378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e21580472a3b8854fb2aed545b225cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvaSiguiente: {fileID: 0}
 --- !u!1 &629568302874809665
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +786,7 @@ MonoBehaviour:
   button1: {fileID: 629568302684631344}
   button2: {fileID: 629568303921206678}
   button3: {fileID: 629568304169389479}
-  canva1: {fileID: 4218761763195695588, guid: 28797f0c2945999488bed7eff05777e2, type: 3}
+  canva1: {fileID: 4875485557873277709, guid: ca81582ed5e52c543945e368c2f224be, type: 3}
   canva2: {fileID: 0}
   canva3: {fileID: 0}
 --- !u!114 &629568303438674808
@@ -943,6 +944,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 629568303438674806}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button2Pressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 6124053717760493461}
         m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
         m_MethodName: MoveToScene
@@ -967,6 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e21580472a3b8854fb2aed545b225cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvaSiguiente: {fileID: 0}
 --- !u!1 &629568304140300072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1193,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 629568304169389478}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 629568303438674806}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button3Pressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &629568304215094517
 GameObject:
   m_ObjectHideFlags: 0

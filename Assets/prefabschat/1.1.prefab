@@ -137,7 +137,7 @@ MonoBehaviour:
   button1: {fileID: 4875485559264850254}
   button2: {fileID: 4875485558363280872}
   button3: {fileID: 4875485558585380313}
-  canva1: {fileID: 4218761763195695588, guid: 28797f0c2945999488bed7eff05777e2, type: 3}
+  canva1: {fileID: 8985273672963174007, guid: fed8490ebdab2d64cbf99ecc0212fc29, type: 3}
   canva2: {fileID: 0}
   canva3: {fileID: 0}
 --- !u!114 &4875485557873277702
@@ -293,7 +293,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4875485558363280871}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4875485557873277704}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button2Pressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4875485558584602454
 GameObject:
   m_ObjectHideFlags: 0
@@ -506,7 +518,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4875485558585380312}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4875485557873277704}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button3Pressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4875485558640358539
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,10 +1020,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4875485559027545273}
-        m_TargetAssemblyTypeName: ChangeScene, Assembly-CSharp
-        m_MethodName: MoveToScene
-        m_Mode: 3
+      - m_Target: {fileID: 4875485557873277704}
+        m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
+        m_MethodName: Button1Pressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
