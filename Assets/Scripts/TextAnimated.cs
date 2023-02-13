@@ -22,7 +22,7 @@ public class TextAnimated : MonoBehaviour
             charCount += s.Length;
         }
 
-        Debug.Log($"CHAR COUNT: {charCount}");
+        //Debug.Log($"CHAR COUNT: {charCount}");
 
     }
 

@@ -22,13 +22,13 @@ public class ButtonsSetActive : MonoBehaviour
 
         characters = textAnim.charCount;
         timeBtwen = textAnim.timeBtwnChars;
-        Debug.Log(characters);
+        //Debug.Log(characters);
 
         tiempoPaciente = characters * timeBtwen;
-        Debug.Log(tiempoPaciente);
+        //Debug.Log(tiempoPaciente);
 
         tiempoParaRespuestas = Time.time + tiempoPaciente;
-        Debug.Log(tiempoParaRespuestas);
+        //Debug.Log(tiempoParaRespuestas);
     }
 
     // Update is called once per frame
@@ -37,7 +37,7 @@ public class ButtonsSetActive : MonoBehaviour
         if (Time.time >= tiempoParaRespuestas && setted == false)
         {
             ButtonsShow();
-            Debug.Log("ButtonShowed");
+            //Debug.Log("ButtonShowed");
             setted = true;
         }
     }
