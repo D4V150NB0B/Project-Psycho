@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuDeInicio.unity
     guid: 141549f70b9a90e44ba44ecbe33fd41a
   - enabled: 1
-    path: Assets/Scenes/ChatCanvas.unity
+    path: Assets/Scenes/MainGame.unity
     guid: 873f440680dd7df44b1865bc40af91ed
   - enabled: 1
     path: Assets/Scenes/saludo.unity

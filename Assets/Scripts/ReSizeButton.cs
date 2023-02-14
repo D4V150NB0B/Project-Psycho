@@ -13,7 +13,7 @@ public class ReSizeButton : MonoBehaviour
     {
         yield return null;
         Vector2 size = text.textBounds.size;
-        transformUi.sizeDelta = size + new Vector2(30, 30);
+        transformUi.sizeDelta = size + new Vector2(50, 50);
     }
 
     // Update is called once per frame

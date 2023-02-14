@@ -46,6 +46,7 @@ public class ChatTemplateRobert : MonoBehaviour
     }
     public void Button2Pressed()
     {
+
         Stats.singleton.confianza += confianza2;
         Stats.singleton.motivacion += motivacion2;
         Stats.singleton.tension += tension2;
@@ -56,6 +57,7 @@ public class ChatTemplateRobert : MonoBehaviour
     }
     public void Button3Pressed()
     {
+
         Stats.singleton.confianza += confianza3;
         Stats.singleton.motivacion += motivacion3;
         Stats.singleton.tension += tension3;

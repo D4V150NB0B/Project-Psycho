@@ -5,10 +5,10 @@ using UnityEngine;
 public class Stats : MonoBehaviour
 {
     public static Stats singleton;
-    public int confianza = 9;
-    public int motivacion = 2;
-    public int tension = 8;
-    public int estres = 4;
+    public int confianza = 5;
+    public int motivacion = 5;
+    public int tension = 5;
+    public int estres = 5;
 
     private void Awake()
     {
