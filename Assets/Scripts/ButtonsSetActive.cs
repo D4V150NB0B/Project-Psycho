@@ -41,6 +41,16 @@ public class ButtonsSetActive : MonoBehaviour
             //Debug.Log("ButtonShowed");
             setted = true;
         }
+
+        if (characters != textAnim.charCount && setted == true)
+        {
+            ButtonsHidde();
+            characters = textAnim.charCount;
+            timeBtwen = textAnim.timeBtwnChars;
+            tiempoPaciente = characters * timeBtwen;
+            tiempoParaRespuestas = Time.time + tiempoPaciente;
+            setted = false;
+        }
     }
 
     void ButtonsShow()
@@ -60,7 +70,25 @@ public class ButtonsSetActive : MonoBehaviour
             button3.SetActive(true);
 
         }
-        tiempoParaRespuestas = Time.time + tiempoPaciente;
     }
-  
+    void ButtonsHidde()
+    {
+        if (button1 != null)
+        {
+            button1.SetActive(false);
+
+        }
+        if (button2 != null)
+        {
+            button2.SetActive(false);
+
+        }
+        if (button3 != null)
+        {
+            button3.SetActive(false);
+
+        }
+        
+    }
+
 }

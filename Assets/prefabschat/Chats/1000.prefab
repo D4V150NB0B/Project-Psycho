@@ -659,9 +659,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 4591581388160504111}
   stringArray:
-  - "Las mujeres en esta edad no se entienden ni a s\xED mismas. Es muy complicado
-    lograr algo con alguien cuando nisiquiera entienden la importancia de la responsabilidad
-    afectiva."
+  - "Las mujeres en esta edad no se entienden ni a s\xED mismas."
+  - ' Es muy complicado lograr algo con alguien cuando nisiquiera entienden la importancia
+    de la responsabilidad afectiva.'
   - No he encontrado a alguien que sea ''tan madura como yo''.
   timeBtwnChars: 0.09
   timeBtwnWords: 0.16
