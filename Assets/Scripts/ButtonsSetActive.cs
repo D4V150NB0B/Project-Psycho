@@ -14,12 +14,13 @@ public class ButtonsSetActive : MonoBehaviour
     float timeBtwen;
 
     float tiempoPaciente;
-    float tiempoParaRespuestas = 10;
+    float tiempoParaRespuestas;
     // Start is called before the first frame update
     IEnumerator Start()
     {
+        tiempoParaRespuestas = 10;
         yield return null;
-
+        
         characters = textAnim.charCount;
         timeBtwen = textAnim.timeBtwnChars;
         //Debug.Log(characters);
@@ -59,6 +60,7 @@ public class ButtonsSetActive : MonoBehaviour
             button3.SetActive(true);
 
         }
+        tiempoParaRespuestas = Time.time + tiempoPaciente;
     }
   
 }
