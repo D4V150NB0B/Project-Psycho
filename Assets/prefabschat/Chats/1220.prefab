@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4591581386206943051
 RectTransform:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4591581386601144814}
         m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
         m_MethodName: Button3Pressed
         m_Mode: 1
@@ -182,7 +182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4591581386252303764
 RectTransform:
   m_ObjectHideFlags: 0
@@ -471,8 +471,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Nunca rendirse es una habilidad que pocos tienen, \xBFeso es lo que quieres
-    para tu vida?"
+  m_text: Nunca es muy tarde para descubrir cosas nuevas de nosotros mismos, Robert.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 325318a82c1f752489cccdc825f13c20, type: 2}
   m_sharedMaterial: {fileID: 3869757101487623254, guid: 325318a82c1f752489cccdc825f13c20, type: 2}
@@ -557,7 +556,7 @@ GameObject:
   - component: {fileID: 4591581386601144814}
   - component: {fileID: 4591581386601144815}
   m_Layer: 5
-  m_Name: MainChatPrefab 1
+  m_Name: 1220
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -659,10 +658,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 4591581388160504111}
   stringArray:
-  - "Si eso me asegurara que va a funcionar... Pero no es as\xED   "
-  - " y he estado en una mala racha desde hace 10 a\xF1os.   "
-  - " No te voy a mentir, no es mi culpa que lleve 10 a\xF1os as\xED, mi confianza
-    se ha reducido mucho."
+  - Eso es lo que espero que usted encuentre, Mr. Hamlet
+  - "Yo no lo he logrado en estos a\xF1os, pero quiero creer que usted podr\xE1 ver
+    lo que yo no."
   timeBtwnChars: 0.09
   timeBtwnWords: 0.16
   charCount: 0
@@ -681,9 +679,9 @@ MonoBehaviour:
   button1: {fileID: 4591581386252303766}
   button2: {fileID: 4591581386966137103}
   button3: {fileID: 4591581386206943055}
-  canva1: {fileID: 0}
-  canva2: {fileID: 0}
-  canva3: {fileID: 0}
+  canva1: {fileID: 4591581386601144812, guid: 626f21b781bb879478b787b656efa47c, type: 3}
+  canva2: {fileID: 4591581386601144812, guid: c08248f33bd0fb9408bc4296c3541024, type: 3}
+  canva3: {fileID: 4591581386601144812, guid: 1985b657f99bc9e4980a7efdc860c5d2, type: 3}
   confianza1: 0
   motivacion1: 0
   tension1: 0
@@ -779,7 +777,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Nunca es tarde para intentarlo de nuevo
+  m_text: "Podr\xEDamos necesitar de muchas sesiones para lograr eso, Robert."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 325318a82c1f752489cccdc825f13c20, type: 2}
   m_sharedMaterial: {fileID: 3869757101487623254, guid: 325318a82c1f752489cccdc825f13c20, type: 2}
@@ -944,7 +942,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4591581386966137101
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1152,7 +1150,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xBFCrees que vale la pena intentarlo de nuevo si eso te va a desmotivar?"
+  m_text: "Quiz\xE1 podamos encontrar las ra\xEDces de donde vienen tus inquietudes"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 325318a82c1f752489cccdc825f13c20, type: 2}
   m_sharedMaterial: {fileID: 3869757101487623254, guid: 325318a82c1f752489cccdc825f13c20, type: 2}

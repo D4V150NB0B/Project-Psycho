@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4591581386206943051
 RectTransform:
   m_ObjectHideFlags: 0
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4591581386601144814}
         m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
         m_MethodName: Button3Pressed
         m_Mode: 1
@@ -182,7 +182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4591581386252303764
 RectTransform:
   m_ObjectHideFlags: 0
@@ -557,7 +557,7 @@ GameObject:
   - component: {fileID: 4591581386601144814}
   - component: {fileID: 4591581386601144815}
   m_Layer: 5
-  m_Name: MainChatPrefab 1
+  m_Name: 1330
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -659,8 +659,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _textMeshPro: {fileID: 4591581388160504111}
   stringArray:
-  - "Si eso me asegurara que va a funcionar... Pero no es as\xED   "
-  - " y he estado en una mala racha desde hace 10 a\xF1os.   "
+  - "Si eso me asegurara que va a funcionar... Pero no es as\xED, y he estado en
+    una mala racha desde hace 10 a\xF1os."
   - " No te voy a mentir, no es mi culpa que lleve 10 a\xF1os as\xED, mi confianza
     se ha reducido mucho."
   timeBtwnChars: 0.09
@@ -681,9 +681,9 @@ MonoBehaviour:
   button1: {fileID: 4591581386252303766}
   button2: {fileID: 4591581386966137103}
   button3: {fileID: 4591581386206943055}
-  canva1: {fileID: 0}
-  canva2: {fileID: 0}
-  canva3: {fileID: 0}
+  canva1: {fileID: 4591581386601144812, guid: 71954d04529fe7145b362bd1e3270210, type: 3}
+  canva2: {fileID: 4591581386601144812, guid: 1f3761e36925ce94f8aebaea56ecff27, type: 3}
+  canva3: {fileID: 4591581386601144812, guid: 7ba5369083f68a447ae3e1083fc78c91, type: 3}
   confianza1: 0
   motivacion1: 0
   tension1: 0
@@ -944,7 +944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4591581386966137101
 RectTransform:
   m_ObjectHideFlags: 0
