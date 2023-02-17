@@ -941,7 +941,7 @@ RectTransform:
   m_GameObject: {fileID: 1143177719}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.5833335, y: 6.4500003, z: 3.5833335}
+  m_LocalScale: {x: 2.6964583, y: 4.8536253, z: 2.6964583}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3090280604720160490}
@@ -960,7 +960,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143177719}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: d1628f2ea4eabdd4aa163487db0d8420, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: 719e9fb3b39515444b2e63146fdf0ed7, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -973,12 +973,14 @@ VideoPlayer:
   m_DataSource: 0
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
-  m_TargetAudioSources: []
-  m_DirectAudioVolumes: []
+  m_TargetAudioSources:
+  - {fileID: 0}
+  m_DirectAudioVolumes:
+  - 1
   m_Url: 
-  m_EnabledAudioTracks: 
-  m_DirectAudioMutes: 
-  m_ControlledAudioTrackCount: 0
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
   m_Looping: 0
@@ -1047,7 +1049,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: d1269253121a2b14aaafe5267bafe039, type: 2}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 241b84d6c568e094093d59f3874ca76a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
