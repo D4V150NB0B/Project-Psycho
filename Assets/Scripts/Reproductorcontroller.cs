@@ -10,13 +10,41 @@ public class Reproductorcontroller : MonoBehaviour
     void Start()
     {
         Reproductor = this.GetComponent<AudioSource>();
-        Reproductor.clip = Audios[0];
+        
+    }
+    public void PlayButtonSound()
+    {
+        Reproductor.clip = Audios[19];
+        Reproductor.PlayOneShot(Reproductor.clip);
         Reproductor.Play();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OptionButtonSound()
     {
-        
+        Reproductor.clip = Audios[17];
+        Reproductor.PlayOneShot(Reproductor.clip);
+        Reproductor.Play();
+    }
+    public void SoundButtonChat()
+    {
+        Reproductor.clip = Audios[21];
+        Reproductor.PlayOneShot(Reproductor.clip);
+        Reproductor.Play();
+    }
+
+    public void QuitButtonSound()
+    {
+        Reproductor.clip = Audios[20];
+        Reproductor.PlayOneShot(Reproductor.clip);
+        Reproductor.Play();
+    }
+
+    public void GameOverButtonSound()
+    {
+        Reproductor.clip = Audios[18];
+        Reproductor.PlayOneShot(Reproductor.clip);
+        Reproductor.Play();
     }
 }
+
+

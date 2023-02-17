@@ -875,6 +875,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1348759050}
+        m_TargetAssemblyTypeName: Reproductorcontroller, Assembly-CSharp
+        m_MethodName: GameOverButtonSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &933246185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1150,6 +1162,74 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1348759049
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5342922
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.62804204
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.17956823
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193008, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8768505474113193010, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+      propertyPath: m_Name
+      value: Reproductor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+--- !u!114 &1348759050 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8768505474113193009, guid: e897dad12078a14419c8b4c8c574202e, type: 3}
+  m_PrefabInstance: {fileID: 1348759049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e795921a7434a64f9cf1bfb75178743, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1607401511
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,6 +1495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a4d25c70ab89ac4686970a040eb1b43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  instanceReproductor: {fileID: 0}
   button1: {fileID: 933246184}
   button2: {fileID: 0}
   button3: {fileID: 0}
