@@ -12,50 +12,68 @@ EditorBuildSettings:
     path: Assets/Scenes/MainGame.unity
     guid: 873f440680dd7df44b1865bc40af91ed
   - enabled: 1
-    path: Assets/Scenes/saludo.unity
-    guid: ca5332a22c4c5f048b11a6a5ebfcb0e6
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+    path: Assets/Scenes/TransitionIntro.unity
+    guid: fd127bb8c20591c40997f626263a5445
   - enabled: 1
-    path: Assets/Scenes/final estres.unity
-    guid: 8962e6e669ebaa84d8a0620d5b383f2a
+    path: Assets/Scenes/FinalMotivacion.unity
+    guid: 227e40bde5ada544c92fab9f619bc3d6
+  - enabled: 1
+    path: Assets/Scenes/FinalMalo.unity
+    guid: d90a70b75ba2eef4fb3658cdda715f20
+  - enabled: 1
+    path: Assets/Scenes/FinalBueno.unity
+    guid: ce6c77bd50c3cf348a7d37c77985b952
+  - enabled: 1
+    path: Assets/Scenes/FinalConfianza.unity
+    guid: 55c2c1579d3e50048ac7d3979f63322b
+  - enabled: 1
+    path: Assets/Scenes/FinalEstres.unity
+    guid: b469d52e95ccefc46b411f85b5d38d74
+  - enabled: 1
+    path: Assets/Scenes/FinalTension.unity
+    guid: 1b8fb90d4d952a24786eb8930a7fbd90
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/final bueno.unity
-    guid: 597dd24c398788f4da00f49fad098b80
-  - enabled: 1
-    path: Assets/Scenes/final confianza.unity
-    guid: fb093f3b68be5124bae4c281e587dbb2
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

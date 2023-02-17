@@ -140,7 +140,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 4591581386601144814}
         m_TargetAssemblyTypeName: ChatTemplateRobert, Assembly-CSharp
-        m_MethodName: Button1Pressed
+        m_MethodName: CambiarScenaFinalConfianza
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
