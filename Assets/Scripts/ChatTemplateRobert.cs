@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class ChatTemplateRobert : MonoBehaviour
 {
+    
+    public GameObject instanceReproductor;
     public Button button1;
     public Button button2;
     public Button button3;
@@ -27,7 +29,8 @@ public class ChatTemplateRobert : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        instanceReproductor = GameObject.Find("Reproductor");
+       
     }
 
     // Update is called once per frame
@@ -37,6 +40,7 @@ public class ChatTemplateRobert : MonoBehaviour
     }
     public void Button1Pressed()
     {
+        instanceReproductor.GetComponent<Reproductorcontroller>().SoundButtonChat();
         Stats.singleton.confianza += confianza1;
         Stats.singleton.motivacion += motivacion1;
         Stats.singleton.tension += tension1;
@@ -47,7 +51,7 @@ public class ChatTemplateRobert : MonoBehaviour
     }
     public void Button2Pressed()
     {
-
+        instanceReproductor.GetComponent<Reproductorcontroller>().SoundButtonChat();
         Stats.singleton.confianza += confianza2;
         Stats.singleton.motivacion += motivacion2;
         Stats.singleton.tension += tension2;
@@ -58,7 +62,7 @@ public class ChatTemplateRobert : MonoBehaviour
     }
     public void Button3Pressed()
     {
-
+        instanceReproductor.GetComponent<Reproductorcontroller>().SoundButtonChat();
         Stats.singleton.confianza += confianza3;
         Stats.singleton.motivacion += motivacion3;
         Stats.singleton.tension += tension3;
