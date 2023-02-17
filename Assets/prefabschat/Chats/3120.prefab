@@ -683,18 +683,18 @@ MonoBehaviour:
   canva1: {fileID: 4591581386601144812, guid: 2385b30b86a9af14bb59b6c48eb7344d, type: 3}
   canva2: {fileID: 4591581386601144812, guid: 165da92193b7d3a4c8b96f4abe5a3824, type: 3}
   canva3: {fileID: 4591581386601144812, guid: 190d2e07bfa58f2489fe74858332df4f, type: 3}
-  confianza1: 0
-  motivacion1: 0
-  tension1: 0
-  estres1: 0
-  confianza2: 0
-  motivacion2: 0
+  confianza1: 2
+  motivacion1: 2
+  tension1: -4
+  estres1: -3
+  confianza2: 2
+  motivacion2: 4
   tension2: 0
   estres2: 0
-  confianza3: 0
-  motivacion3: 0
-  tension3: 0
-  estres3: 0
+  confianza3: -3
+  motivacion3: -4
+  tension3: -4
+  estres3: 2
 --- !u!114 &4591581386601144815
 MonoBehaviour:
   m_ObjectHideFlags: 0

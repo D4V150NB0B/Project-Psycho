@@ -683,14 +683,14 @@ MonoBehaviour:
   canva3: {fileID: 4591581386601144812, guid: eb6667594c31bce41a4debb2613acd72, type: 3}
   confianza1: 0
   motivacion1: 0
-  tension1: 0
-  estres1: 0
-  confianza2: 0
-  motivacion2: 0
-  tension2: 0
-  estres2: 0
-  confianza3: 0
-  motivacion3: 0
+  tension1: -1
+  estres1: -1
+  confianza2: -1
+  motivacion2: -1
+  tension2: -2
+  estres2: -2
+  confianza3: -2
+  motivacion3: -2
   tension3: 0
   estres3: 0
 --- !u!114 &4591581386601144815
