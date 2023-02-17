@@ -10,7 +10,7 @@ public class Reproductorcontroller : MonoBehaviour
     void Start()
     {
         Reproductor = this.GetComponent<AudioSource>();
-        Reproductor.clip = Audios[];
+        Reproductor.clip = Audios[0];
         Reproductor.Play();
     }
 

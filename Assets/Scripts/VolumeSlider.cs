@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class VolumeSlider : MonoBehaviour
 {
@@ -8,7 +10,7 @@ public class VolumeSlider : MonoBehaviour
      
     void Start()
     {
-        _slider.onValueChanged.AddListener(value => SoundManager.Instance.ChangeMastervVolume(value));
+        _slider.onValueChanged.AddListener(value => SoundManager.Instance.ChangeMasterVolume(value));
 
     }
 }
