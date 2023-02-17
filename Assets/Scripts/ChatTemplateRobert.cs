@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ChatTemplateRobert : MonoBehaviour
 {
@@ -66,4 +67,42 @@ public class ChatTemplateRobert : MonoBehaviour
         Instantiate(canva3, new Vector3(0, 0, 0), Quaternion.identity);
         Destroy(transform.gameObject.GetComponentInParent<Canvas>().gameObject);
     }
+
+    public void CambiarScenaTransitionIntro()
+    {
+        SceneManager.LoadScene("TransitionIntro");
+    }
+    public void CambiarScenaMenuDeInicio()
+    {
+        SceneManager.LoadScene("MenuDeInicio");
+    }
+    public void CambiarScenaMainGame()
+    {
+        SceneManager.LoadScene("MainGame");
+    }
+    public void CambiarScenaFinalTension()
+    {
+        SceneManager.LoadScene("FinalTension");
+    }
+    public void CambiarScenaFinalBueno()
+    {
+        SceneManager.LoadScene("FinalBueno");
+    }
+    public void CambiarScenaFinalEstres()
+    {
+        SceneManager.LoadScene("FinalEstres");
+    }
+    public void CambiarScenaFinalMotivacion()
+    {
+        SceneManager.LoadScene("FinalMotivacion");
+    }
+    public void CambiarScenaFinalMalo()
+    {
+        SceneManager.LoadScene("FinalMalo");
+    }
+    public void CambiarScenaFinalConfianza()
+    {
+        SceneManager.LoadScene("FinalConfianza");
+    }
+
 }
