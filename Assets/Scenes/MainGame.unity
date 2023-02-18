@@ -326,7 +326,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4591581386252303765, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144812, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_Name
@@ -362,23 +362,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 913.21
+      value: 838.78
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 514.38
+      value: 471.71
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.0656214
+      value: 1.0091114
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.0656214
+      value: 1.0091114
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.0656214
+      value: 1.0091114
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_LocalPosition.x
@@ -410,11 +410,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 487.43
+      value: 423.29
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 273.93
+      value: 238
       objectReference: {fileID: 0}
     - target: {fileID: 4591581386601144821, guid: 5f835b459dc20b24aa6a6ae82e8fca12, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -478,10 +478,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 861.98, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
